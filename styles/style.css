@@ -1,0 +1,253 @@
+/*common style*/
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Merriweather:wght@400;700;900&family=Mulish:wght@400;700;800&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;600;700&display=swap');
+
+  body{
+    max-width: 1440px;
+    margin: 50px 135px;
+  }
+
+  *{
+
+font-family: 'Mulish', sans-serif;
+
+ }
+ 
+ .common-color{
+    color: #131318;
+ }
+
+ .common-color2{
+    color: #FF5400;
+ }
+ /*header style*/
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+nav >div{
+    display: flex;
+    align-items: center;
+}
+
+nav div img{
+    width: 48px;
+height: 56.008px;
+}
+
+.hero{
+    font-size: 36px;
+    font-weight: 800;
+}
+
+nav >ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #424247;
+}
+nav li a{
+    text-decoration: none;
+}
+
+/*section styles*/
+.section1{
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    
+    background-repeat: no-repeat;
+    width: 1170px;
+height: 500px;
+border-radius: 16px;
+text-align: center;
+}
+
+.section{
+    padding: 106px 185px;
+}
+.section .input-style{
+    display: inline-flex;
+padding: 16px;
+align-items: flex-start;
+gap: 24px;
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+}
+
+.input-style input{
+    width: 174px;
+height: 52px;
+border-radius: 8px;
+background: #FFF;
+border: none;
+}
+
+.icon{
+    display: flex;
+}
+.icon_search{
+    width: 24px;
+    height: 24px;
+    margin-left: -25px;
+    margin-top: 14px;
+}
+::placeholder{
+    padding-left: 10px;
+}
+.your-travel{
+    color: #FFF;
+font-size: 64px;
+font-weight: 800;
+}
+
+
+.travel-div p{
+    width: 676px;
+    color: #FFF;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+margin: auto;
+}
+
+.plans{
+    display: flex;
+    width: 1170px;
+    height: 780px;
+    align-items: center;
+    justify-content: center;
+}
+.plans_one{
+    width: 600px;
+    margin-right: 70px;
+}
+.plan_heading{
+    color: #131318;
+font-size: 40px;
+font-weight: 800;
+}
+.plan_btn{
+    width: 174px;
+height: 52px;
+border-radius: 8px;
+background: #FF5400;
+font-weight: 800;
+font-size: 18px;
+border: none;
+color: white;
+}
+/* .tour{
+
+} */
+.tour1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 1170px;
+    gap: 13px;
+    margin-top: 10px;
+    margin-bottom: -128px;
+}
+.tour2{
+    display: grid;
+    grid-template-columns: 300px auto 270px;
+    width: 1170px;
+    gap: 13px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.tour3{
+    display: grid;
+    grid-template-columns: 500px auto ;
+    width: 1170px;
+    gap: 13px;
+    
+}
+.img{
+    height: 100%;
+    width: 100%;
+}
+.img1{
+    height: 70%;
+    width: 100%;
+}
+
+.tour_heading{
+    color: #131318;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+line-height: normal;
+}
+.tour_text{
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+margin-bottom: 40px;
+}
+
+/*choose us hotel*/
+.hotel{
+    border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+width: 573px;
+height: 284px;
+padding: 32px 32px;
+}
+.hotel img{
+    width: 64px;
+height: 64px;
+}
+.hotel h2{
+    color: #131318;
+font-size: 24px;
+font-weight: 800;
+}
+.hotel p{
+    color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+width: 486px;
+padding-bottom: 20px;
+}
+.two-item{
+    display: flex;
+    gap: 20px;
+}
+
+.hotel-center{
+    width: 573px;
+height: 284px;
+    border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+padding: 32px 32px;
+margin-top: 20px;
+margin-left: 300px;
+
+}
+.hotel-center img{
+    width: 64px;
+    height: 64px;
+}
+.hotel-center h2{
+    color: #131318;
+font-size: 24px;
+font-weight: 800;
+}
+.hotel-center p{
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+width: 486px;
+padding-bottom: 20px;
+}
