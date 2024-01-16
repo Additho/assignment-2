@@ -54,7 +54,14 @@ nav li{
 nav li a{
     text-decoration: none;
 }
-
+.search{
+    position: relative;
+    left: -55px;
+    top: 45px;
+}
+.search-icon{
+    margin-top: -33px;
+}
 /*section styles*/
 .section1{
     background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
@@ -120,6 +127,7 @@ margin: auto;
     height: 780px;
     align-items: center;
     justify-content: center;
+
 }
 .plans_one{
     width: 600px;
@@ -156,7 +164,7 @@ color: white;
     grid-template-columns: 300px auto 270px;
     width: 1170px;
     gap: 13px;
-    margin-top: 10px;
+    margin-top: 50px;
     margin-bottom: 15px;
 }
 .tour3{
@@ -318,6 +326,8 @@ transform: rotate(-19.628deg);
 border-radius: 16px;
 background: #FF5400;
 position: relative;
+left: 331px;
+bottom: 199px;
 }
 #tra{
     color: #FFF;
@@ -333,4 +343,89 @@ font-weight: 800;
 text-align: center;
 margin: 0;
 
+}
+
+/*footer logo*/
+.footer-bg{
+    width: 1440px;
+height: 502px;
+background: rgba(19, 19, 24, 0.05);
+width: 1516px;
+margin-left: -132px;
+margin-bottom: -53px;
+
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+   padding-top: 110px;
+   padding-left: 662px;
+}
+.footer-logo img{
+    width: 40px;
+height: 46.673px;
+
+}
+.footer-para{
+    color: #5A5A5D;
+    width: 769px;
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+padding-left: 335px;
+padding-right: 336px;
+}
+.icon-img{
+    padding:33px 670px ;
+    width: 200px;
+height: 24px;
+padding-bottom: 50px;
+
+
+}
+.gap{
+padding-right: 4px;
+}
+.last-item{
+    text-align: center;
+    color: #131318;
+font-size: 16px;
+font-weight: 300;
+}
+
+
+@media screen and (max-width:600px) {
+    body{
+        margin: 5px
+      }
+
+    nav{
+        flex-direction: column;
+    }
+    nav ul{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .section1{
+        /* display: flex;
+        flex-direction: column; */
+        background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    
+        background-repeat: no-repeat;
+        width: 600px;
+    border-radius: 16px;
+    background-size: contain;         
+
+    }
+    .plans{
+        display: flex;
+        flex-direction: column;
+    }
+    .input-style{
+        flex-direction: column;
+    }
+    .tour_text{
+        width: 341px;
+    }
 }
